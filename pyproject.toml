@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "manim-sandbox"
+version = "0.1.0"
+description = "A sandbox for Manim projects"
+authors = ["JonathanHourany"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+manim = "^0.11.0"
+
+[tool.poetry.dev-dependencies]
+black = "^21.9b0"
+flake8 = "^4.0.1"
+isort = "^5.9.3"
+pre-commit = "^2.15.0"
+pytest = "^6.2.5"
+jupyterlab = "^3.2.1"
+mypy = "^0.910"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

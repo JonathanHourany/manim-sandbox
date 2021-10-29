@@ -1,0 +1,14 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE settings
+.idea/
+.vscode/
+
+# Unit test / coverage reports
+.pytest_cache/
+
+# Compiled videos/images
+media/
