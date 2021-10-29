@@ -8,4 +8,4 @@ To run an animation:
 manim -pqh tutorials/quickstart/basic_scene.py CreateCircle
 ```
 The `-p` flag plays the animation once it's rendered.
-The `-q` flag is "quality", and can be `-ql`, '-qm', `-qh` or `-qk' for low, medium, high, and 4k quality respectively. 
+The `-q` flag is "quality", and can be `-ql`, `-qm`, `-qh` or `-qk` for low, medium, high, and 4k quality respectively. 
